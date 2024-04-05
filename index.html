@@ -1,472 +1,327 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Cafe Caffa Website">
+    <meta name="author" content="Cafe Caffa">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no">
+    <script src="cdn-cgi/apps/head/sxN6HgCn8v7CG45Nsym8imDXilk.js"></script><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>کافه کافا</title>
 
-<html class="no-js" lang="fa" dir="rtl">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<!-- Page Title Here -->
-	<title>کافه کافا</title>
-
-	<!-- Page Description Here -->
-	<meta name="description" content="">
-
-	<!-- Disable screen scaling-->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
-
-	<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-	<!-- Initializer -->
-	<link rel="stylesheet" href="css/normalize.css">
-
-	<!-- Web fonts and Web Icons -->
-	<link rel="stylesheet" href="css/pageloader.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-
-	<!-- Vendor CSS style -->
-	<link rel="stylesheet" href="css/foundation.min.css">
-	<link rel="stylesheet" href="js/vendor/jquery.fullPage.css">
-	<link rel="stylesheet" href="js/vegas/vegas.min.css">
-
-	<!-- Main CSS files -->
-	<link rel="stylesheet" href="css/main.css">
-	<!-- responsiveness -->
-	<link rel="stylesheet" href="css/main_responsive.css">
-
-	<script src="js/vendor/modernizr-2.7.1.min.js"></script>
-</head>
-
-<body id="menu" class="alt-bg">
-	<!--[if lt IE 8]>
-            <p class="browsehappy">شما در حال استفاده از مرورگر  <strong>قدیمی</strong> هستید، لطفا نسخه <a href="http://browsehappy.com/">جدید</a> را دانلود کنید.</p>
+    <!--[if lt IE 9]>
+    <script src="assets/bootstrap/js/html5shiv.min.js"></script>
+    <script src="assets/bootstrap/js/respond.min.js"></script>
     <![endif]-->
 
-	<!-- Page Loader -->
-	<div class="page-loader" id="page-loader">
-		<div><i class="ion ion-load-c ion-spin"></i>
-			<p>درحال بارگذاری</p>
-		</div>
-	</div>
+    <script src="assets/js/modernizr.custom.js"></script>
+</head>
+<body class="cssAnimate ptn13">
+<div class="ct-preloader"><div class="ct-preloader-content"></div></div>
+<div class="ct-mainNav ct-js-background" data-bg="assets/images/menu-pattern.jpg">
+    <div class="ct-mainNav-inner">
+        <nav>
+            <a class="ct-mainNav-logo" href="index.html">
+                <img src="assets/images/demo-content/logo.png" alt="Charlotte Logo">
+            </a>
+<!--            <hr class="hr-custom ct-js-background" data-bg="assets/images/hr1.png">-->
+            <ul class="ct-mainNav-nav text-uppercase animated" data-fx="fadeIn">
+                <li class="active">
+                    <a href="index.html">خانه</a>
+                </li>
+                <li>
+                    <a href="menu.html">منو</a>
+                </li>
+                <li><a href="gallery-infinite.html">گالری</a></li>
+                <li><a href="about.html">درباره کافا</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+        <div class="ct-mainNav-sidebar">
+            <div class="ct-contactInfo text-uppercase animated" data-fx="fadeInUp">
+                <h5 class="ct-u-colorMotive ct-u-font3">مکان</h5>
+                <p class="ct-u-font2">
+                    کرج، میدان مهران،<br>
+                    بسمت  میدان طالقانی, کافه کافا
+                </p>
+            </div>
+<!--            <hr class="hr-custom ct-js-background animated" data-fx="fadeIn" data-time="400" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">-->
+            <div class="ct-contactInfo text-uppercase ct-u-paddingBottom30 animated" data-fx="fadeInUp">
+                <h5 class="ct-u-colorMotive ct-u-font3">زمان کاری</h5>
+                <p class="ct-u-font2">
+                    شنبه تا جمعه<br>
+                    ساعت ۷ صبح تا ۱۲ شب
+                </p>
+            </div>
+            <ul class="list-unstyled list-inline ct-socials animated" data-fx="fadeInUp" data-time="400">
+                <li>
+                    <a href="https://www.facebook.com/" data-toggle="tooltip"
+                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" data-toggle="tooltip" data-placement="top"
+                       title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Google +"><i
+                            class="fa fa-fw fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-	<!-- BEGIN OF site header Menu -->
-	<header class="header-top">
-		<a class="menu-icon clearfix">
-			<div class="bars">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			<div class="txt">منو</div>
-		</a>
-		<ul class="menu clearfix">
-<!--			<li>-->
-<!--				<a href="#about-us">درباره ما</a>-->
-<!--			</li>-->
-			<li>
-				<a href="#contact">تماس با ما</a>
-			</li>
-			<!-- Add other menu similar to "about" here : -->
-			<!--<li>
-                	<a href="#write-message">Write to us</a>
-			</li>-->
+<div  id="ct-js-wrapper" class="ct-pageWrapper" >
+    <div class="ct-navbarMobile ct-navbarMobile--inverse">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/demo-content/logo.png" alt="Website Logo"> </a>
+        <button type="button" class="navbar-toggle">
+            <span class="sr-only">نویگیشن</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
 
-		</ul>
-	</header>
-	<!-- END OF site header Menu-->
+    <section class="ct-sidebar ct-js-sidebar ct-js-background ct-u-displayNone ct-big-gallery" data-bg="assets/images/demo-content/full1-home.jpg">
+        <div class="ct-js-owl " data-animations="true" data-height="100%" data-snap-ignore="true">
+            <div class="item">
+                <hr class="hr-custom ct-js-background animated" data-fx="fadeInDown" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">
+                <h2 class="ct-u-font2 text-uppercase animated" data-fx="flipInY">نگاهی دیگر<br>به قهوه</h2>
+                <p class="animated" data-fx="fadeIn">قهوه خوشمزه است، خوشمزگی‌اش به همان تلخ بودنش است!</br> وقتی می‌خوریم تلخی‌اش را تحویل نمی‌گیریم، اما می‌گوییم چسبید!
+                    <br>زندگی هم روزهای تلخش بد نیست، مثل قهوه می‌ماند،</br> تلخ است اما لذتبخش، تلخی‌هایش را تحویل نگیر و بخند.
 
+                </p>
+                <a href="about.html" class="btn btn-lg btn-default animated" data-fx="fadeIn" data-hover="خوشمزس!"><span>بیشتر بدانید</span></a>
+                <hr class="hr-custom ct-js-background animated ct-u-paddingTop60" data-fx="fadeInDown" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">
+            </div>
+    </section>
+    <section class="ct-content">
+        <div class="row ct-js-masonry">
 
-	<!-- BEGIN OF site navigation -->
-	<nav class="page-nav">
-		<div>
-			<a href="#home"><i class="ion icon ion-ios-home"></i>
-				<span class="title">خانه</span>
-			</a>
-			<a href="#contact"><i class="ion icon ion-ios-email"></i>
-				<span class="title">تماس با ما</span>
-			</a>
-			<a href="#register"><i class="ion icon ion-android-create"></i>
-				<span class="title">ثبت نام</span>
-			</a>
-<!--			<a href="#about-us"><i class="ion icon ion-ios-information"></i>-->
-<!--				<span class="title">درباره ما</span>-->
-<!--			</a>-->
+            <div class="col-sm-6 ct-js-masonryItem">
+            </div>
 
-		</div>
-	</nav>
-	<!-- END OF site navigation -->
+            <div class="col-sm-12 ct-js-masonryItem">
+                <div class="ct-imageBox">
+                    <a href="menu.html#breakfast">
+                        <img src="assets/images/demo-content/promo1.jpg" alt="Breakfast menu">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-6 col-sm-offset-6 text-center">
+                                        <h5 style="padding-left: 85px" class="ct-u-colorMotive ct-u-font3 text-uppercase">روز خود را با کافا آغاز کنید</h5>
+                                        <h3 style="padding-left: 85px" class="ct-u-font2 text-uppercase">منو صبحانه</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 ct-js-masonryItem text-center ct-breakfastSection">
+                <section class="ct-frame ct-frame--motive">
+                    <h4 class="ct-u-font1 text-uppercase ct-u-colorMotive ct-smallTitle">صبحانه<br>مخصوص</h4>
+                    <h4 class="ct-u-font2 text-uppercase ct-u-colorWhite">صبحانه اینگلیسی</h4>
+                    <p>
+                        بیکن، سوسیس، نیمرو، خوراک لوبیا، گوجه فرنگی، قارچ، نان تست
+                    </p>
+                    <hr class="hr-custom ct-js-background animated" data-fx="fadeInDown" data-bg="assets/images/hr2.png" data-bgrepeat="repeat">
 
-	<!-- BEGIN OF site cover -->
-	<div class="page-cover">
-		<!-- Cover Background -->
-		<div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>
+                    <h4 class="ct-u-font1 text-uppercase ct-u-colorMotive ct-smallTitle">ناهار<br>مخصوص</h4>
+                    <h4 class="ct-u-font2 text-uppercase ct-u-colorWhite">پیتزا مخصوص کافا</h4>
+                    <p>
+                        فیله گوساله، مرغ گریل شده، قارچ، فلفل دلمه، ذرت، زیتون، سس مخصوص
+                    </p>
+                    <hr class="hr-custom ct-js-background animated" data-fx="fadeInDown" data-bg="assets/images/hr2.png" data-bgrepeat="repeat">
 
-		<!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
-		<div id="container" class="video-container show-for-medium-up">
-			<video autoplay="autoplay" loop="loop"  muted="muted" width="640" height="360">
-				<source src="vid/flower_loop.mp4" type="video/mp4">
-			</video>
-		</div>
-		<!--END OF Static video bg-->
+                    <h4 class="ct-u-font1 text-uppercase ct-u-colorMotive ct-smallTitle">شام<br>مخصوص</h4>
+                    <h4 class="ct-u-font2 text-uppercase ct-u-colorWhite">برگر مخصوص کافا</h4>
+                    <p>
+                        ۲ عدد برگر ۱۸۰ گرمی، چریتسو، استیک مرغ ۱۰۰ گرمی، بیکن، قارچ، پنیر
+                    </p>
+                    <hr class="hr-custom ct-js-background animated" data-fx="fadeInDown" data-bg="assets/images/hr2.png" data-bgrepeat="repeat">
 
-		<!-- Solid color as filter -->
-		<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(45, 46, 51, 0.8)"></div>
+                    <h4 class="ct-u-font1 text-uppercase ct-u-colorMotive ct-smallTitle">پیش غذا</h4>
+                    <h4 class="ct-u-font2 text-uppercase ct-u-colorWhite">سیب زمینی اسپشیال</h4>
+                    <p>
+                        ژامبون، قارچ، ذرت، پنیر موزورلا
+                    </p>
+                    <p>
+                       سوپ روز
+                    </p>
+                    <p>سیب زمینی تنوری با سس مخصوص</p>
+                    <p>پیده ترکیه ای<p>
+                    <p>اسپرینگ رول ۴ تکه</p>
+                    <p>نان سیر مخصوص</p>
+                    <a href="menu.html"><p>منو کامل</p></a>
+                </section>
+            </div>
+            <div class="col-sm-6 ct-js-masonryItem ct-coffeesSection">
+                <div class="ct-imageBox">
+                    <a href="menu.html#coffeshop">
+                        <img src="assets/images/demo-content/promo3.jpg" alt="Coffee">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <hr class="hr-custom ct-js-background" data-bg="assets/images/hr3.png" data-bgrepeat="no-repeat">
+                                        <h5 class="ct-u-font3 text-uppercase ct-u-colorWhite">رست تازه</h5>
+                                        <h3 class="ct-u-font2 text-uppercase ct-u-colorWhite">قهوه و نوشیدنی های گرم</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 ct-js-masonryItem ct-deliveredSection">
+                <div class="ct-imageBox">
+                    <a href="menu.html#bakings">
+                        <img src="assets/images/demo-content/promo2.jpg" alt="Croissant">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <hr class="hr-custom ct-js-background" data-bg="assets/images/hr3.png" data-bgrepeat="no-repeat">
+                                        <h5 class="ct-u-font3 text-uppercase ct-u-colorWhite">کیک و کروسانت داغ</h5>
+                                        <h3 class="ct-u-font2 text-uppercase ct-u-colorWhite">پخت روزانه</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 ct-js-masonryItem ct-deliveredSection">
+                <div class="ct-imageBox">
+                    <a href="menu.html#pizza-burger">
+                        <img src="assets/images/demo-content/promo2.jpg" alt="pizza">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <hr class="hr-custom ct-js-background" data-bg="assets/images/hr3.png" data-bgrepeat="no-repeat">
+                                        <h5 class="ct-u-font3 text-uppercase ct-u-colorWhite">سالاد و پاستا</h5>
+                                        <h3 class="ct-u-font2 text-uppercase ct-u-colorWhite">برگر و پیتزا مخصوص</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 ct-js-masonryItem ct-deliveredSection">
+                <div class="ct-imageBox">
+                    <a href="menu.html#int">
+                        <img src="assets/images/demo-content/promo2.jpg" alt="int">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <hr class="hr-custom ct-js-background" data-bg="assets/images/hr3.png" data-bgrepeat="no-repeat">
+                                        <h5 class="ct-u-font3 text-uppercase ct-u-colorWhite">بین المللی</h5>
+                                        <h3 class="ct-u-font2 text-uppercase ct-u-colorWhite">غذاهای فرنگی</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 ct-js-masonryItem">
+                <div class="ct-imageBox">
+                    <a href="menu.html">
+                        <img src="assets/images/demo-content/promo4.jpg" alt="desert">
+                        <article class="ct-imageBox-inner">
+                            <div class="ct-imageBox-innerAlign">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <hr class="hr-custom ct-js-background" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">
+                                        <h5 class="ct-u-colorMotive ct-u-font3 text-uppercase">به مزه های ما بپیوندید</h5>
+                                        <h3 class="ct-u-font2 text-uppercase ct-u-colorWhite">پیش غذا و سوخاری</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 ct-js-masonryItem text-center ct-breakfastSection">
+                <a href="gallery-infinite.html"><section>
+                    <img src="assets/css/gallery-main-page.png" height="350" width="1236"/>
+                </section></a>
+            </div>
+            <div class="col-sm-12 ct-js-masonryItem">
+                <section class="ct-frame ct-frame--white">
+                    <h3 class="ct-u-font1 text-uppercase text-center">سخن کافا</h3>
+                    <hr class="hr-custom ct-js-background" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">
+                    <p>
+                        کافه کافا با ایجاد فضایی دوستانه و صمیمی علاوه بر خدمات ویژه کافه و فست فود سعی بر ایجاد فضای امن و آرامش روحی و روانی شما در ساعتی که در کافه هستید فراهم کند.
+                    </p>
+                    <div class="text-center ct-u-paddingBoth20">
+                        <a href="about.html" class="btn btn-lg btn-inverse animated" data-fx="fadeIn" data-hover="راه و رسم ما"><span>در مورد کافه کافا</span></a>
+                    </div>
+                </section>
+            </div>
+            <!--<div class="col-sm-12 ct-js-masonryItem">
+                <section class="ct-frame ct-frame&#45;&#45;white">
+                    <h3 class="ct-u-font1 text-uppercase text-center">From The Blog</h3>
+                    <hr class="hr-custom ct-js-background" data-bg="assets/images/hr2.png" data-bgrepeat="no-repeat">
+                    <article class="ct-blogItem ct-formatPhoto ct-u-paddingBottom20">
+                    <a href="blog-single.html" class="ct-js-popup ct-frame-image" title="The Space"><img src="assets/images/demo-content/gallery-thumb-7.jpg" alt="thumbnail"></a>
+                    <div class="ct-innerMargin">
+                        <div class="ct-entryMeta">
+                             <div class="ct-entryDateFirst">Oct 22, 2014</div>
+                        </div>
+                        <h3 class="ct-entryTitle ct-u-font2"><a href="blog-single.html">Standard Post Format with Preview Image</a></h3>
+                    <p class="ct-entryDescription">
+                        Etiam nunc tortur, ultrices quis turpis, tempor lacinia ligula. Sed at odio vel est lobortis eleifend ac vitae enim. Maecenas mattis nibg.
+                        Nulla sagittis ex et mauris ultrices, ut convallis nulla molestie. Ut efficitur cursus ipsum eget semper.
+                    </p>
+                    <div class="clearfix"></div>
+                    </div>
+                </article>
+                </section>
+            </div>-->
+        </div>
+    </section>
+    <a href="#" id="toTop"><i class="fa fa-angle-up"></i></a>
+</div>
 
-	</div>
-	<!--END OF site Cover -->
+<!-- JavaScripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.placeholder.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/device.min.js"></script>
+<script src="assets/js/jquery.browser.min.js"></script>
+<script src="assets/js/snap.min.js"></script>
+<script src="assets/js/jquery.appear.js"></script>
 
-	<!-- Begin of timer pane -->
-	<div class="pane-when " id="s-when">
-		<div class="content clearfix">
-			<!-- Header -->
-			<header class="header">
-				<p>زمان باقیمانده <br> تا آغاز به کار وب سایت کافه کافا</p>
-			</header>
-
-			<!-- Clock -->
-			<div class="clock clock-countdown">
-				<div class="site-config" data-date="05/05/2024 00:00:00" data-date-timezone="+0"></div>
-				<div class="big">
-					<div class="digit">
-						<span class="days">00</span>
-						<span class="txt">روز</span>
-					</div>
-				</div>
-
-
-				<div class="medium clearfix">
-					<span class="unit">:</span>
-					<span class="hours">00</span>
-					<span class="unit">:</span>
-					<span class="minutes">00</span>
-				</div>
-				<div class="small">
-					<span class="seconds">00</span><span class="thin"> ثانیه</span>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	<!-- End of timer pane -->
-
-	<!-- BEGIN OF site main content content here -->
-	<main class="page-main" id="mainpage">
-
-		<!-- Begin of home page -->
-		<div class="section page-home page page-cent" data-section="home">
-
-			<h3 class="s-title">خانه</h3>
-			<div class="s-fixed-content">
-				<!-- Begin of Social links -->
-				<ul>
-					<li>
-						<h4>شبکه های اجتماعی</h4>
-						<div class="socialnet">
-							<a href="#"><i class="ion ion-social-facebook"></i>
-								<span class="title">Facebook</span>
-							</a>
-							<a href="#"><i class="ion ion-social-twitter"></i>
-								<span class="title">Twitter</span>
-							</a>
-							<a href="#">
-								<span class="icon">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
-										width="30px" height="30px">
-										<path
-											d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z" />
-									</svg>
-								</span>
-								<span class="title">Instagram</span>
-							</a>
-							<a href="#">
-								<span class="icon">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px"
-										height="30px">
-										<path
-											d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z" />
-									</svg>
-								</span>
-								<span class="title">Tiktok</span>
-							</a>
-						</div>
-					</li>
-				</ul>
-				<!-- End of Social links -->
-			</div>
-			<!-- Content -->
-			<section class="content">
-
-				<header class="header">
-					<!-- You can use text instead of logo, just uncomment below -->
-					<!-- <div class="h-left">
-							<h2>افتتاح سایت <strong>جدید</strong></h2>
-						</div>-->
-
-					<div class="p-title">
-						<img class="h-logo" src="img/logo.png" alt="Logo">
-					</div>
-
-					<div class="h-right">
-						<h3> وبسایت رسمی کافه کافا</h3>
-						<h4 class="subhead"><a href="#register">به زودی خواهیم آمد</a></h4>
-						<p>کافه کافا در راستای پیشرفت و توسعه مشتریان خود اقدام به وبسایت فروشگاهی و باشگاه مشتریان کرده است</p>
-					</div>
-
-				</header>
-			</section>
-
-			<!-- Arrows scroll down/up -->
-			<footer class="p-footer p-scrolldown">
-				<a class="down btn">
-					<div>
-					</div>
-				</a>
-			</footer>
-		</div>
-		<!-- End of home page -->
-		<!-- Begin of Contact page   -->
-		<div class="section page-contact page page-cent" data-section="contact">
-
-			<h3 class="s-title">تماس با ما</h3>
-			<div class="s-fixed-content">
-				<ul>
-					<li>
-						<h4>شبکه های اجتماعی</h4>
-						<!-- Begin of Social links -->
-						<div class="socialnet">
-							<a href="#"><i class="ion ion-social-facebook"></i>
-								<span class="title">Facebook</span>
-							</a>
-							<a href="#"><i class="ion ion-social-twitter"></i>
-								<span class="title">Twitter</span>
-							</a>
-							<a href="#">
-								<span class="icon">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
-										 width="30px" height="30px">
-										<path
-												d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z" />
-									</svg>
-								</span>
-								<span class="title">Instagram</span>
-							</a>
-							<a href="#">
-								<span class="icon">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px"
-										 height="30px">
-										<path
-												d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z" />
-									</svg>
-								</span>
-								<span class="title">Tiktok</span>
-							</a>
-						</div>
-						<!-- End of Social links -->
-					</li>
-				</ul>
-			</div>
-			<!-- Begin of contact information -->
-			<div class="slide" id="s-information">
-				<section class="content">
-
-					<!-- Begin Of Page SubSection -->
-					<div class="contact">
-						<div class="row">
-							<div class="medium-12 columns left">
-								<ul>
-									<li>
-										<p>کرج، عظیمیه، خیابان شریعتی
-											<br>قبل از میدان مهران، کافه کافا
-										</p>
-									</li>
-									<li>
-										<p>ایمیل : <a
-												href="mailto://Contact@CafeCaffa.ir">Contact@CafeCaffa.ir</a></p>
-									</li>
-									<li>
-										<p>شماره تلفن : 02600000000</p>
-									</li>
-
-									<li>
-										<p>وب سایت : <a
-												href="#">www.cafecaffa.ir</a></p>
-									</li>
-									<li>
-										<p><img src="img/logo.png" alt="Logo" class="logo"></p>
-										<p class="small">ارائه شده توسط <strong><a
-												href="https://cafecaffa.ir">کافه کافا</a></strong></p>
-									</li>
-
-								</ul>
-							</div>
-						</div>
-					</div>
-					<!-- End of page SubSection -->
-				</section>
-			</div>
-			<!-- end of contact information -->
-
-
-			<!-- Arrows scroll down/up -->
-			<footer class="p-footer p-scrolldown">
-				<a class="down btn">
-					<div>
-					</div>
-				</a>
-				<a class="up btn">
-					<div>
-					</div>
-				</a>
-			</footer>
-		</div>
-		<!-- End of Contact page  -->
-		<!-- Begin of register page -->
-		<div class="section page-register page page-cent" data-section="register">
-
-			<h3 class="s-title">ثبت نام</h3>
-			<section class="content">
-				<header class="p-title">
-					<h4 class="subhead">دریافت آخرین اخبار</h4>
-				</header>
-				<div>
-					<form id="mail-subscription" class="form magic send_email_form" method="get"
-						action="">
-						<p class="invite">لطفا ایمیل خود را در زیر بنویسید تا با ما در ارتباط باشید:</p>
-						<div class="fields clearfix">
-							<div class="input">
-								<label for="reg-email">ایمیل </label>
-								<input id="reg-email" class="email_f" name="email" type="email" required
-									placeholder="آدرس ایمیل خود را وارد کنید" data-validation-type="email">
-							</div>
-							<div class="buttons">
-								<button id="submit-email" class="button email_b" name="submit_email">ثبت نام</button>
-							</div>
-						</div>
-
-						<p class="email-ok invisible"><strong>متشکریم!</strong> برای ثبت نام شما</p>
-					</form>
-				</div>
-			</section>
-			<!-- Arrows scroll down/up -->
-			<footer class="p-footer p-scrolldown">
-				<a class="down btn">
-					<div>
-					</div>
-				</a>
-				<a class="up btn">
-					<div>
-					</div>
-				</a>
-			</footer>
-		</div>
-		<!-- End of register page -->
-
-		<!-- Begin of about us page -->
-<!--		<div class="section page-about page page-cent" data-section="about-us">-->
-<!--			<h3 class="s-title">درباره ما</h3>-->
-<!--			<section class="content">-->
-<!--				<header class="p-title">-->
-<!--					<h2><img src="img/logo.png" alt="logo">-->
-<!--					</h2>-->
-
-<!--					<h4 class="subhead">ما چه <span class="bold">خدماتی</span> ارائه خواهیم داد؟</h4>-->
-<!--				</header>-->
-<!--				<article class="text">-->
-<!--					<p>لورم ایپسوم <strong>متن ساختگی </strong>رای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>-->
-<!--					<p>حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>-->
-<!--				</article>-->
-<!--			</section>-->
-<!--			&lt;!&ndash; Arrows scroll down/up &ndash;&gt;-->
-<!--			<footer class="p-footer p-scrolldown">-->
-<!--				<a class="down btn">-->
-<!--					<div>-->
-<!--					</div>-->
-<!--				</a>-->
-<!--				<a class="up btn">-->
-<!--					<div>-->
-<!--					</div>-->
-<!--				</a>-->
-<!--			</footer>-->
-<!--		</div>-->
-		<!-- End of about us page -->
+<script src="assets/js/masonry.min.js"></script>
 
 
+<script src="assets/plugins/owl/owl.carousel.min.js"></script>
+<script src="assets/plugins/owl/init.js"></script>
 
-		<!-- Begin of Message page -->
-		<div class="section page page-message page-cent" data-section="write-message">
+<script src="assets/js/portfolio/imagesloaded.js"></script>
+<script src="assets/js/image-box/init.js"></script>
 
-			<h3 class="s-title">ارتباط با ما</h3>
-			<div>
-				<section class="content">
-					<!-- Begin Of Page SubSction -->
-					<p>به کمک نیاز دارید یا فقط می خواهید برای ما پیام ارسال کنید؟</p>
-					<div class="page-block c-right v-zoomIn">
-						<div class="wrapper">
-							<div>
-								<form class="message form send_message_form" method="get"
-									action="#">
-									<div class="fields clearfix">
-										<div class="input">
-											<label for="mes-name">نام </label>
-											<input id="mes-name" name="name" type="text" placeholder="نام"
-												required>
-										</div>
-										<div class="buttons">
-											<button id="submit-message" class="button email_b"
-												name="submit_message">ارسال</button>
-										</div>
-									</div>
-									<div class="fields clearfix">
-										<div class="input">
-											<label for="mes-email">ایمیل </label>
-											<input id="mes-email" type="email" placeholder="ایمیل" name="email"
-												required>
-										</div>
-									</div>
-									<div class="fields clearfix no-border">
-										<label for="mes-text">پیام درخواست </label>
-										<textarea id="mes-text" placeholder="پیام خود را بنویسید..." name="message"
-											required></textarea>
+<script src="assets/js/retina.js"></script>
+<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/select2/select2.js"></script>
+<script src="assets/js/main.js"></script>
 
-										<div>
-											<p class="message-ok invisible">پیام شما ارسال شد، ممنون</p>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-					<!-- End Of Page SubSction -->
-				</section>
+<!-- switcher -->
 
-			</div>
-
-			<!-- Arrows scroll down/up -->
-			<footer class="p-footer p-scrolldown">
-				<a class="up btn">
-					<div>
-					</div>
-				</a>
-			</footer>
-		</div>
-		<!-- End of Message page -->
-
-	</main>
-
-	<!-- END OF site main content content here -->
-
-	<!-- All Javascript plugins goes here -->
-	<script src="js/vendor/jquery-1.11.2.min.js"></script>
-	<!-- All vendor scripts -->
-	<script src="js/vendor/all.js"></script>
-	
-	<!-- Downcount JS -->
-	<script src="js/jquery.downCount.js"></script>
-
-	<!-- Form script -->
-	<script src="js/form_script.js"></script>
-
-	<!-- Javascript main files -->
-	<script src="js/main.js"></script>
+<!-- end switcher -->
 </body>
-
 </html>
